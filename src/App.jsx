@@ -50,6 +50,14 @@ function App() {
     <>
       <TodoInput handleAdd={handleAdd} itemValue={itemValue} setItemValue={setItemValue} />
       <TodoList handleDelete={handleDelete} handleEdit={handleEdit} items={items} />
+      <footer>
+        <p>
+          Check out the code on GitHub:{" "}
+          <a href="https://github.com/udhayavirat18/todoreact" target="_blank" rel="noopener noreferrer">
+            Todo App Repository
+          </a>
+        </p>
+      </footer>
     </>
   );
 }
